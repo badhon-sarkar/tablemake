@@ -4,19 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px 20pxs;
+        }
+    </style>
 </head>
 <body>
     <main>
         <h2>Friends</h2>
         <table>
+            <caption>my sweet friends</caption>
             <thead>
-
+                <tr>
+                    <th>firstname</th>
+                    <th>last name</th>
+                    <th>age</th>
+                </tr>
             </thead>
             <tbody>
-
+                <tr>
+                    <td>pria</td>
+                    <td>bondu</td>
+                    <td>17</td>
+                </tr>
             </tbody>
             <tfoot>
-
+                <td colspan="2">total friends</td>
+            </tfoot>
             </tfoot>
         </table>
     </main>
@@ -28,6 +47,8 @@
             <li>table body: tbody</li>
             <li>table foot:tfoot</li>
             <li>table row: tr</li>
+            <li>table data: td</li>
+            <li>table header: th</li>
         </ul>
     </section>
 </body>
